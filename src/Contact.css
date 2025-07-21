@@ -1,0 +1,35 @@
+/* src/Contact.css */
+.contact-section {
+  padding: 2rem;
+  background-color: #0d1117;
+  color: #c9d1d9;
+  text-align: center;
+}
+
+.contact-section h2 {
+  color: #f0f6fc;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #30363d;
+  display: inline-block;
+  padding-bottom: 0.5rem;
+}
+
+.contact-links {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.contact-links li {
+  margin: 0.8rem 0;
+  font-size: 1.1rem;
+}
+
+.contact-links a {
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+.contact-links a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,35 @@
+/* src/CodingProfiles.css */
+.coding-section {
+  padding: 2rem;
+  background-color: #0d1117;
+  color: #c9d1d9;
+  text-align: center;
+}
+
+.coding-section h2 {
+  color: #f0f6fc;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #30363d;
+  display: inline-block;
+  padding-bottom: 0.5rem;
+}
+
+.coding-links {
+  list-style: none;
+  padding: 0;
+  margin-top: 1.5rem;
+}
+
+.coding-links li {
+  margin: 1rem 0;
+  font-size: 1.1rem;
+}
+
+.coding-links a {
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+.coding-links a:hover {
+  text-decoration: underline;
+}

@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
+body.light {
+  background-color: #ffffff;
+  color: #0d1117;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body.light a {
+  color: #1a0dab;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body.light .navbar {
+  background-color: #f8f9fa;
+  color: #0d1117;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Dark Theme */
+body.dark {
+  background-color: #0d1117;
+  color: #c9d1d9;
 }
 
-.App-link {
-  color: #61dafb;
+body.dark a {
+  color: #58a6ff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body.dark .navbar {
+  background-color: #161b22;
+  color: #f0f6fc;
+}
+
+/* Toggle button */
+.theme-toggle {
+  background: none;
+  border: 1px solid #aaa;
+  color: inherit;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* src/App.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0d1117; /* GitHub dark bg */
+  color: #c9d1d9; /* Light text */
+}
+
+a {
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #f0f6fc;
+}
+
+/* Optional: add some layout padding */
+section {
+  padding: 2rem;
 }
