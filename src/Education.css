@@ -1,0 +1,65 @@
+/* src/Education.css */
+
+.education-section {
+  background-color: var(--section-bg);
+  color: var(--text-color);
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+.education-section h2 {
+  color: var(--heading-color);
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #30363d;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.education-card {
+  background-color: #1c2128;
+  padding: 1.5rem;
+  border-left: 4px solid #0d6efd;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.education-card h3 {
+  margin-bottom: 0.3rem;
+  color: #f0f6fc;
+}
+
+.education-card .degree,
+.education-card .duration,
+.education-card .gpa {
+  font-size: 0.95rem;
+  color: #8b949e;
+  margin-bottom: 0.4rem;
+}
+
+.education-card ul {
+  padding-left: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.education-card li {
+  margin-bottom: 0.4rem;
+  line-height: 1.5;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .education-section {
+    padding: 1rem;
+  }
+
+  .education-card {
+    padding: 1rem;
+  }
+
+  .education-section h2 {
+    font-size: 1.5rem;
+  }
+}

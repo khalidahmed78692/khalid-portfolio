@@ -31,6 +31,9 @@ function Navbar() {
           </Link>
         </li>
         <li>
+          <Link to="/education">Education</Link>
+        </li>
+        <li>
           <Link to="/experience" onClick={() => setMenuOpen(false)}>
             Experience
           </Link>

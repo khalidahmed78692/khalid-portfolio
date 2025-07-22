@@ -10,6 +10,7 @@ import "./App.css";
 import Skills from "./Skills";
 import Contact from "./Contact";
 import CodingProfiles from "./CodingProfiles";
+import Education from "./Education";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/education" element={<Education />} />
           <Route path="/experience" element={<Experience />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/skills" element={<Skills />} />

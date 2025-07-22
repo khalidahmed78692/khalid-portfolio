@@ -80,6 +80,7 @@ body.dark .navbar {
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: #0d1117; /* GitHub dark bg */
   color: #c9d1d9; /* Light text */
@@ -104,4 +105,8 @@ h4 {
 /* Optional: add some layout padding */
 section {
   padding: 2rem;
+}
+
+.wrapper {
+  overflow-x: hidden;
 }
