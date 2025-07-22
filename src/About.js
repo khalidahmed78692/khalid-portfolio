@@ -16,7 +16,7 @@ function About() {
         When I’m not coding, I enjoy exploring Linux internals, automating workflows, and occasionally helping juniors with DSA and career prep.
       </p>
       <a
-        href="https://drive.google.com/file/d/1xg_Zq9oYMy3BOTXMkVhyqYYe83AnhmGD/view?usp=drive_link"
+        href="https://drive.google.com/file/d/1RMUEQ3xLDSqpwPWVYcuqNpwD0w8Sk8xv/view?usp=drive_link"
         target="_blank"
         rel="noopener noreferrer"
         className="resume-button"
